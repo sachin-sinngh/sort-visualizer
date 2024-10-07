@@ -1,0 +1,25 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  height: 2rem;
+}
+
+#container {
+  width: 100%;
+  height: calc(100% - 2rem); 
+  position: relative;
+  background-color: black;
+}
+
+.rect {
+  width: 0.5rem;
+  background-color: white;
+  border: 1px solid black;
+  position: absolute;
+  bottom: 0rem;
+  transition: all 1ms linear;
+}
